@@ -315,7 +315,7 @@ def parse(inputs, debug=False):
     classes = [Fortran,
                Module,
                InternalSubprogram,
-               SubprogramHeading,
+            #    SubprogramHeading,
                Declaration,
                Stmt,
                DeclarationAttribute,
